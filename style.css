@@ -1,106 +1,35 @@
-* {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
+body {
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
-p {
-    font-size: 18;
-    font-family: Helvetica, sans-serif;
-    font-weight: 400;
-    
+/* Conteúdo do Cabeçalho */
+
+#header-information {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2%;
+  background-color: rgb(19, 19, 19);
+  padding-left: 2%;
+  padding-right: 2%;
+  min-height: 100px;
 }
 
-h1 {
-    font-family: Helvetica, sans-serif;
-    font-size: 38px;
-    text-align: center;
-    text-shadow: 5px;
-    margin-top: 50px;
-    color: rgb(59, 59, 59);
+#header-title {
+  color: white;
 }
 
-h2 {
-    font-family: Helvetica, sans-serif;
-    color: rgb(59, 59, 59);
+.social-icon {
+  font-size: 30px;
+  color: white;
+  padding-left: 10px ;
+  padding-right: 10px;
 }
 
-h3 {
-    font-family: Helvetica, sans-serif;
-    line-height: 30px;
-    color: rgb(59, 59, 59);
-    text-decoration: none;
-}
+/* Menu do cabeçalho */
 
-a {
-    text-decoration: none;
-    color: rgb(2, 27, 65);
-}
-
-/* Estilização do cabeçalho */
-
-.heading {
-    background-color: rgb(19, 19, 19);
-    padding-top: 100px;
-}
-
-.headblock {
-    text-align: center;
-    
-}
-
-.head-menu {
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    background-color: rgb(19, 19, 19);
-    height: 16px;
-    text-align: center;
-    vertical-align: middle;
-    padding: 10px 10px;
-    display: inline-block;
-    font-family: Helvetica, sans-serif;
-}
-
-.head-menu:hover {
-    background-color: rgb(43, 43, 43);
-}
-
-.head-menu a {
-    color: rgb(255, 255, 255);
-}
-
-.head-menu:active {
-    background-color: rgb(78, 78, 78);
-}
-#indice {
-    background-color: rgb(204, 204, 204);
-    color:rgb(59, 59, 59);
-    padding: 15px 30px;
-    width: 175px;
-    font-size: 20px;
-    border-radius: 10px;
-    font-family: Helvetica, sans-serif;
-    line-height: 30px;
-}
-
-.text-indice {
-    color: rgb(44, 44, 44);
-    text-decoration: none;
-}
-
-#img-lado {
-    display: flex;
-    background-color: rgb(204, 204, 204);
-    border-radius: 25px;
-    
-}
-
-img {
-    border-radius: 100%;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
+#menu-itens {
+  display: flex;
+  justify-content: center;
+  background-color: #212529;
 }
