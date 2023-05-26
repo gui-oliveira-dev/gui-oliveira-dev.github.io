@@ -15,8 +15,10 @@ body {
   min-height: 100px;
 }
 
-#header-title {
+#header-title h1{
   color: white;
+  font-size: 30px;
+  align-items: center;
 }
 
 .social-icon {
@@ -24,6 +26,7 @@ body {
   color: white;
   padding-left: 10px ;
   padding-right: 10px;
+  align-items: center;
 }
 
 /* Menu do cabeçalho */
@@ -32,5 +35,98 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #212529;
+  background-color: rgb(33, 37, 41);
+}
+
+#cards {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Cartões de projeto */
+
+#projetos {
+  margin-top: 50px;
+}
+
+#projetos h2 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 450;
+}
+
+#cards {
+  margin-top: 50px;
+}
+
+
+.card {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Seção sobre mim */
+#about-me {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 10px 30px;
+  background-color: rgb(33, 37, 41);
+  color: white;
+  font-size: 16px;
+}
+
+#about-content {
+  display: flex;  
+}
+
+#about-content img {
+  width: 350px;
+  height: 350px;
+  margin-right: 20px;
+  border-radius: 100%;
+}
+
+#about-me h2 {
+  align-self: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  text-shadow:
+}
+
+#estudos {
+  margin-bottom: 600px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+#text h4 {
+  font-size: 20px;
+}
+
+/* Seção Estudos */
+
+#estudos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+#study-trybe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-bottom: 30px;
+}
+#study-trybe p {
+  text-align: center;
+  font-size: large;
+}
+
+.btn-group {
+  margin-bottom: 40px;
 }
