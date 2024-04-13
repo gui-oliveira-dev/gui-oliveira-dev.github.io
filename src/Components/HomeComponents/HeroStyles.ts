@@ -1,39 +1,29 @@
 
 export const heroStyle = `
-  md: h-full
-  md: p-16
-  flex
   bg-gray-900
-  h-svh
-  justify-between
-  p-20
+  px-6
+  py-24
 `
 
 export const textContainer = `
-  md: mt-0
-  p-2
-  mt-16
+  flex
+  flex-col
+  items-center
 `
 
 export const h2text = `
-  md: text-xl
-  text-white
+  text-gray-100
   text-3xl
-  m-4
-
+  w-2/3
 `
 
 export const h1text = `
-  md: text-4xl
-  md: m-2
   text-purple-600
   text-5xl
-  m-4
+  w-2/3
+  m-3
 `
 
 export const imagestyle = `
-  md: hidden
-  w-1/3
-  h-fit
-  opacity-30
+  hidden
 `

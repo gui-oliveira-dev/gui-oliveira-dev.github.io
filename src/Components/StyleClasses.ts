@@ -1,59 +1,51 @@
 // ------------------------------------------ Header ------------------------------------------------------
 // Links Externos
 export const LinksContainerstl = `
-  md: w-full
-  md: hidden
-  w-1/3
-  flex
-  justify-center
+    flex
   `
 
+export const TopHeader = `
+  flex
+  justify-between
+  p-2
+  items-center
+`
+
 export const HeaderExternalLinkstl = `
-  rounded-md
-  bg-gradient-to-r from-purple-700 to-blue-500
-  hover:from-purple-800 hover:to-blue-700
-  px-8
+  bg-purple-600
+  text-center
   py-1
+  px-4
+  rounded-lg
+  text-white
+  text-xl
 `
 // NavBar
 export const NavBarstl = `
-  md: w-full
-  text-slate-200
-  w-1/3
-  text-center`
+    flex
+    justify-center
+    mt-3
+  `
 
 export const NavLinksstl = `
-  text-xl
-  border-b-2
-  border-slate-600
-  hover:border-blue-500
+  text-gray-100
+  text-center
+  flex-wrap
   p-2
-  m-3
+  m-2
+  w-1/4
+  border-b-2
 `
 
 // Logo Com nome
 export const Logostl = `
-  md: w-full
-  md: text-center
-  md: mb-4
-  text-slate-200
-  font-mono
-  text-xl
-  subpixel-antialiased
-  font-bold
-  tracking-tighter
-  w-1/3
+    text-gray-100
+    font-extrabold
+    font-sans
+    text-xl
   `
 // Container geral do Header
 export const HeaderContainerstl = `
-md: flex-col
-md: h-fit
-md: border-b-2
-md: border-purple-600
-md: border-opacity-15
-md: p-2
-flex
-bg-gray-900
-h-20
-p-8
-items-center`
+    bg-gray-900
+    p-4
+  `
