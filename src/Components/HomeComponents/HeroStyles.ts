@@ -13,13 +13,13 @@ export const textContainer = `
 
 export const h2text = `
   text-gray-100
-  text-3xl
+  text-2xl
   w-2/3
 `
 
 export const h1text = `
   text-purple-600
-  text-5xl
+  text-4xl
   w-2/3
   m-3
 `
