@@ -2,6 +2,7 @@
 // Links Externos
 export const LinksContainerstl = `
     flex
+    p-2
   `
 
 export const TopHeader = `
@@ -16,6 +17,7 @@ export const HeaderExternalLinkstl = `
   text-center
   py-1
   px-4
+  shadow-2xl
   rounded-lg
   text-white
   text-xl
@@ -47,5 +49,24 @@ export const Logostl = `
 // Container geral do Header
 export const HeaderContainerstl = `
     bg-gray-900
-    p-4
+    p-4 
   `
+
+  // Rodapé
+
+export const FooterStyle = `
+  bg-gray-900
+  h-64
+  flex
+  justify-center
+  items-center
+`
+
+export const reserved = `
+  text-gray-100
+  self-end
+  text-base
+  w-2/3
+  text-center
+  font-thin
+`

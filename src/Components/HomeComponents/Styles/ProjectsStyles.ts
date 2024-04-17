@@ -22,4 +22,12 @@ export const CardStyle = `
 
 export const cardImage = `
   w-3/4
+  rounded-2xl
+`
+
+export const sectionTitle = `
+  bg-gray-900
+  text-purple-500
+  text-center
+  text-2xl
 `

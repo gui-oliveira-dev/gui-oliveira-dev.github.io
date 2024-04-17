@@ -1,4 +1,4 @@
-import { CardStyle, cardImage } from "./ProjectsStyles"
+import { CardStyle, cardImage } from "./Styles/ProjectsStyles"
 
 type PropType = {
   project : {

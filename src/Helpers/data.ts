@@ -23,3 +23,5 @@ export const ProjectList: ProjectListType[] = [
     description: 'my fourth project'
   },
 ]
+
+export const AboutMeText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non porttitor nisi. Sed leo metus, consequat ac posuere eu, pharetra at arcu. Fusce facilisis est vitae varius ultrices. Fusce vitae egestas lacus. Nam quis efficitur tellus. Morbi tincidunt turpis sed pharetra tincidunt. Pellentesque eget sem fringilla, blandit velit sed, congue mi. Donec at pulvinar diam, ac dapibus mi. Nullam placerat accumsan fringilla. Mauris tortor turpis, dapibus sit amet est laoreet, tempor elementum est.'
