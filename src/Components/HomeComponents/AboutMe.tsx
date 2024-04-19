@@ -1,6 +1,6 @@
 import { AboutMeText } from "../../Helpers/data"
 import profile from '../../assets/profile-image.jpg'
-import { aboutImg, aboutSection, aboutText, aboutTitle } from "./Styles/AboutStyles"
+import { aboutImg, aboutSection, aboutText, aboutTitle } from "../../Styles/AboutStyles"
 
 function AboutMe() {
   return (

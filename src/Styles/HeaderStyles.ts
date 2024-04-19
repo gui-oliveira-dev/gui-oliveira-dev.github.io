@@ -33,6 +33,7 @@ export const NavLinksstl = `
   text-gray-100
   text-center
   flex-wrap
+  accent-black
   p-2
   m-2
   w-1/4
@@ -52,7 +53,7 @@ export const HeaderContainerstl = `
     p-4 
   `
 
-  // Rodapé
+  // ------------------------------------------------ Footer -----------------------------------------------
 
 export const FooterStyle = `
   bg-gray-900

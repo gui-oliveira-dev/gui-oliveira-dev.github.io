@@ -1,4 +1,4 @@
-import { h1text, h2text, heroStyle, imagestyle, textContainer } from "./Styles/HeroStyles"
+import { h1text, h2text, heroStyle, imagestyle, textContainer } from "../../Styles/HeroStyles"
 
 function HeroSection() {
   return (

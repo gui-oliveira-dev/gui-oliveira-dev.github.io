@@ -1,6 +1,9 @@
+import Projects from "../Components/HomeComponents/Projects";
+import { ProjectList } from "../Helpers/data";
+
 function MyProjects() {
   return (
-    <h1>My Projects</h1>
+    <Projects />
   );
 }
 

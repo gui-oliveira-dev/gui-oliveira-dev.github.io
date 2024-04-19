@@ -1,5 +1,5 @@
 import { ProjectList } from "../../Helpers/data";
-import { containerProjects, sectionTitle } from "./Styles/ProjectsStyles";
+import { containerProjects, sectionTitle } from "../../Styles/ProjectsStyles";
 import ProjectCard from "./ProjectCard";
 
 function Projects() {

@@ -1,4 +1,4 @@
-import { FooterStyle, reserved } from "./StyleClasses";
+import { FooterStyle, reserved } from "../Styles/HeaderStyles";
 
 function Footer() {
   return (

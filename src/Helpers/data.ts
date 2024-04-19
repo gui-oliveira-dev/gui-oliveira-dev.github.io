@@ -3,24 +3,11 @@ import { ProjectListType } from "./types";
 
 export const ProjectList: ProjectListType[] = [
   {
-    name: 'Project 1',
-    image: 'https://www.handtalk.me/br/wp-content/uploads/sites/8/2018/11/capa-blog-2.png',
-    description: 'my first project'
-  },
-  {
-    name: 'Project 2',
-    image: 'https://www.handtalk.me/br/wp-content/uploads/sites/8/2018/11/capa-blog-2.png',
-    description: 'my second project'
-  },
-  {
-    name: 'Project 3',
-    image: 'https://www.handtalk.me/br/wp-content/uploads/sites/8/2018/11/capa-blog-2.png',
-    description: 'my third project'
-  },
-  {
-    name: 'Project 4',
-    image: 'https://www.handtalk.me/br/wp-content/uploads/sites/8/2018/11/capa-blog-2.png',
-    description: 'my fourth project'
+    name: 'Casa de Cambio (Trybe)',
+    image: 'https://i.ibb.co/9rs23Hx/2024-04-18-20-23.png',
+    description: `Este é Meu decimo projeto desenvoilvido pela trybe, meu desafo nele é desenvolver uma palicação para ver valor de uma moeda nos ultimos 30 dias (Por Padrão). Meu desafio aqui foi fazer o uso de Apis para obter os dados, este foi o primeiro projeto em react onde foi necessário o  uso de Apis externas`,
+    link: 'casa-de-cambio',
+    github: 'https://github.com/gui-oliveira-dev/casa-de-cambio'
   },
 ]
 

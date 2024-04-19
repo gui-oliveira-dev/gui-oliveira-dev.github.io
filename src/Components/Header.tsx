@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { HeaderContainerstl, HeaderExternalLinkstl, LinksContainerstl, Logostl, NavBarstl, NavLinksstl, TopHeader } from "./StyleClasses";
+import { HeaderContainerstl, HeaderExternalLinkstl, LinksContainerstl, Logostl, NavBarstl, NavLinksstl, TopHeader } from "../Styles/HeaderStyles";
 
 function Header() {
   return (
